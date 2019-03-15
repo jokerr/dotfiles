@@ -127,3 +127,7 @@ fi
 # Customizations
 eval `ssh-agent -s`
 export DOCKER_HOST=tcp://localhost:2375
+
+# sudo update-alternatives --config java
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+export PATH=$PATH:~/bin
