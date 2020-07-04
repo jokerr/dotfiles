@@ -1,6 +1,7 @@
 [user]
-	email = kerrminator@gmail.com
-	name = Josh Kerr
+    email = josh@jokerr.io
+    name = Josh Kerr
+    username = jokerr
 
 # nice colors for git status
 [color]
@@ -20,3 +21,6 @@
     added = yellow
     changed = green
     untracked = cyan
+
+[core]
+    autocrlf = input
